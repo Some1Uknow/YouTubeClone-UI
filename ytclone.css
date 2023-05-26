@@ -1,0 +1,241 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 50px;
+  margin-top: 10px;
+  width: max-content;
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0;
+  margin-top: 6px;
+}
+
+.search {
+  margin: 0;
+  padding: 0;
+  height: 55px;
+  width: 600px;
+  margin-bottom: 10px;
+  padding-left: 6px;
+}
+
+img {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+#firstbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+button {
+  border: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 1px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lefticons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  opacity: 0.5;
+  transition: 400ms ease-in-out;
+}
+
+#secondbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 170px;
+  height: 680px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-weight: 900;
+  margin-left: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#line {
+  color: black;
+  width: 160px;
+  margin: 1px;
+  margin-top: 4px;
+}
+
+#firstcol {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3px;
+  align-items: flex-start;
+  height: 140px;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+#secondcol {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 300px;
+  margin-top: 2px;
+}
+
+.second {
+  font-size: 15px;
+  justify-content: space-between;
+  align-items: center;
+  word-spacing: 1px;
+}
+
+#section {
+  background-color: rgb(248, 248, 248);
+  display: wrap;
+  height: 683px;
+  width: 1339px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  margin-right: 2px;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+#row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 40%;
+  margin: 3px;
+  padding: 1px;
+}
+
+#row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 1px;
+  margin: 3px;
+  height: 45%;
+}
+
+.video-tile {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.channel-logo {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.video-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.views-count {
+  color: #888;
+}
+
+.channel-name,
+.views-count {
+  margin-left: 50px;
+  font-size: small;
+}
+
+#yt-icon {
+  height: 32px;
+  width: 120px;
+  margin: 0;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#search-btn {
+  height: 53px;
+  width: 70px;
+  border: 1px solid black;
+  border-left: 0;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(246, 246, 246);
+}
+
+.search-btn {
+  margin: 0;
+  padding: 0;
+}
+
+.search-btn:hover {
+  opacity: 0.5;
+  transition: 100ms;
+}
